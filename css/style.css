@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fredoka', sans-serif;        
+}
+
+.tx-font-red{
+    color: red;
+    font-family: 'Fredoka', sans-serif;
+}
+
+.tx-center{
+    text-align: center;
+}
+
+.mg-top{
+    margin-top: 20px;
+}
+
+.dp-flex{
+    display: flex;
+    justify-content: space-between;
+    height: 300px;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 50px;
+    grid-area: 10px;
+}
+
+
+
+.img{
+    width: 100px;
+    border-radius: 10px;
+}
+
+.bg-red{
+    background-color: red;
+}
+
+.bg-black{
+    background-color: black;
+    width: 400px;
+    height: 100px;
+    display: flex;
+    border-radius: 10px;
+    box-shadow: 15px 15px 15px rgb(68, 68, 68);
+}
+.tx-white{
+    color: aliceblue;    
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 8px;
+    padding: 5px;
+
+}
+
+.bg-logo{
+        background-color: rgb(39, 23, 23);
+        height: 100px;
+}
+.logo{
+        width: 200px;
+        margin-top: 20px;
+}
+
+.hr-flex{
+    display: flex;
+    justify-content: space-between;
+    padding-inline-start: 100px;
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow:10px 10px 10px 10px rgb(43, 41, 41);
+    
+}
+
+.div-piccolo{
+    display: flex;
+    width: 40%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly; 
+}
+
+button{
+    display: flex;
+    background-color:rgb(39, 23, 23);
+    border: none;
+    color: rgb(183, 65, 65);
+    padding: 15px 32px; 
+    font-size: 16px;
+     margin: 4px 2px;
+    cursor: pointer;
+    flex-wrap: wrap;
+    
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 169, 237);
+  }
+
+
+
+
+
+
+
